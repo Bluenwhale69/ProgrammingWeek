@@ -5,11 +5,7 @@ def show_info():
 
 show_info()
 
-def show_area():
-    width = float(input("Enter width (in meter): "))
-    length = float(input("Enter length (in meter): "))
-    area = width * length
-    
+def show_area(area):
     print("The result area is", area, "(in square meter)")
-    
-show_area()
+
+show_area(100)
